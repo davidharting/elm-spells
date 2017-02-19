@@ -5,4 +5,4 @@ import Model.Spell as Spell
 type alias Model = List Spell.Model
 
 model : Model
-model = []
+model = [ Spell.Model "Flames", Spell.Model "Heal", Spell.Model "Buff" ]
