@@ -1,3 +1,7 @@
 module Msg.Main exposing (..)
 
-type Msg = DoNothing
+import Msg.SpellList as SpellList
+
+type Msg =
+    DoNothing
+    | MsgForSpellList SpellList.Msg
